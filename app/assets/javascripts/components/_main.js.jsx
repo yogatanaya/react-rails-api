@@ -1,7 +1,7 @@
 const Main=(props)=>{
     return(
         <div className='container'>
-            <div className='row' style={{display: 'flex', justifyContent:'center'}}>
+            <div className='row'>
                 <h1>Fruits Inventory</h1>
                 <Body/>
             </div>
