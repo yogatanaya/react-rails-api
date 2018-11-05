@@ -3,7 +3,7 @@ const AllFruits=(props)=>{
         return(
             <div className='container'>
                 <div className='row'>
-                    <div className='col l6 s12' key={fruit.id}>
+                    <div className='col l12 s12' key={fruit.id}>
                         <div className='card'>
                             <div className='card-body'>
                                 <Fruit fruit={fruit} handleDelete={props.handleDelete} handleUpdate={props.handleUpdate}/>
