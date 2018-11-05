@@ -1,10 +1,9 @@
 const Main=(props)=>{
     return(
-        <div className='container'>
-            <div className='row'>
-                <h1>Fruits Inventory</h1>
-                <Body/>
-            </div>
+        <div>
+            <h1>Fruits Are Great!</h1>
+            <hr/>
+            <Body/>
         </div>
     )
 }
